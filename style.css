@@ -143,7 +143,9 @@ nav span{
 	left: 3%;
 	transform: translate(25%,-30%);
 }
+
     }
+
 
  /*----------About Me--------*/
 
@@ -244,7 +246,7 @@ nav span{
 
   .abir p{
   	color: #777;
-  	font-size: 15px;
+  	font-size: 20px;
   	font-weight: 300px;
   	line-height:20px ;
   	padding: 12px;
@@ -273,20 +275,20 @@ nav span{
    }
 
 .css{
-   	width: 85%;
+   	width: 100%;
    	animation: css 2s;
    }
 
 
 
 .jQuery{
-   	width: 60%;
+   	width: 85%;
    		animation: jQuery 2s;
    }
 
 
 .javaScript{
-   	width: 75%;
+   	width: 80%;
    		animation: javaScript 2s;
    }
 
@@ -352,7 +354,7 @@ nav span{
  	}
 .service p {
 	color: #777;
-	font-size: 15px;
+	font-size: 17px;
 	font-weight: 300px;
 	line-height: 20px;
 	padding: 12px;
