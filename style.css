@@ -54,13 +54,15 @@ text-align: right;
 .menu ul li:hover::after{
 	width: 100%;
 }
-.profile-image {
-	width: 36%;
+ .profile-image {
+	width: 27%;
 	position:absolute;
-	top: 43%;
-	left: 51%;
+	top: 44%;
+	left: 57%;
 	transform: translate(25%,-30%);
-  }
+	max-width: 100%;
+	 height: auto;
+  } 
 
    .tt{
 	width: 60%;
@@ -90,19 +92,20 @@ nav span{
 	display: none;
 }
 
-@media (max-width:700px){.tt{
+   @media (max-width: 768px) { 
+.tt{
 	width: 80%;
 	color: pink;
 	position: absolute;
 	top: 50%;
-	left: 15%;
+	left: 3%;
 	transform: translate(-5%,0%);
 	text-align: center;
 	
 	
 	}
 .tt h1{
-	font-size: 30px;
+	font-size: 25px;
 
  }
 
@@ -135,16 +138,20 @@ nav span{
  .menu ul{
  	padding: 20px
 
- }
+ } /* //position: relative; display: block; margin: auto; max-width: 60%;*/
  .profile-image {
-	width: 53%;
+	width: 42%;
+	height: auto;
+	object-fit: cover;
 	position:absolute;
-	top: 16%;
-	left: 3%;
+	top: 18%;
+	left: 22%;
 	transform: translate(25%,-30%);
 }
 
     }
+
+
 
 
  /*----------About Me--------*/
@@ -608,6 +615,12 @@ nav span{
 	display:block;
 transition: all 0.5 ease;
 }
+
+
+/*  .fotter-collum ul li a:hover {
+    color: #E91E63;
+    transform: translateX(5px);
+} */
 .fotter-collum ul li:hover{
 	padding-left: 8px;
 	color: #ffe;
